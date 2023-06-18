@@ -1,10 +1,10 @@
 const config = {
     server: {
-        port: 3333,
+        port: 4000,
     },
     db: {
         type: 'mongodb', // 'postgres
-        uri: "mongodb://127.0.0.1:27017/todos?retryWrites=true&w=majority"
+        uri: "mongodb://127.0.0.1:27017/todos?w=majority"
     }
 }
 

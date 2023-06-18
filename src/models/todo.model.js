@@ -16,7 +16,7 @@ const TodoSchema = new Schema( {
         type: Boolean,
         default: false
     },
-    userId:{
+    description:{
         type: String,
         required: false
    },
@@ -26,6 +26,12 @@ const TodoSchema = new Schema( {
         type: Date,
         default: Date.now
     }
+    //TIME N DURATION
+    //  
+
+    //  THE RREALTIONSIP 
+
+
 });
 
 const Todo = model("Todo", TodoSchema);

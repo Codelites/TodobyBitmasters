@@ -10,11 +10,11 @@ const router = Router();
 // todo routes
 router.get('/todos', getTodos);
 
-router.get( 'todos/:id', getTodo )
+router.get( '/todos/:id', getTodo )
 
 router.post( '/todos', todoValidationMiddleware, createTodo );
 
-router.put( '/todos/:id', updateTodo );
+router.put( '/todos/:id',todoValidationMiddleware, updateTodo );
 
 router.delete( '/todos/:id', deleteTodo );
 // export handler

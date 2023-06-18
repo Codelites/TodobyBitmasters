@@ -20,3 +20,4 @@ const connectToDatabase = function (config) // type of database , connection par
 }
 // export handler
 export default connectToDatabase;
+
